@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px gainsboro;
+}
+
+header img {
+    width: 100%;
+    height: 150px;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 78%;
+    float: right;
+    padding-bottom: 30px;
+}
+footer {
+    background-color: rgb(18, 4, 102);
+    color: rgb(187, 230, 247);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    list-style-type: none;
+    text-align: center;
+    color: rgb(2, 2, 85);
+    font-size: 22px;
+    border: solid 1px rgb(2, 2, 85);
+    padding: 8px;
+    border-radius: 10px;    
+    margin-bottom: 4px;
+}
+nav ul li:hover {
+    color: rgb(195, 216, 248);
+    background-color: rgb(2, 2, 85);
+}
+a {
+    text-decoration: none;
+}
+.text-azulo {
+    color: rgb(2, 2, 85);
+    text-align: center;
+}
+#home {
+    text-align: center;
+    
+}
+
+.icono{
+
+    
+
+}
+
+.titulo {
+   
+    color: red; 
+    font-size: 25px;
+    text-align: center;
+}
+.titulo2 {
+    color: rgb(30, 160, 160);
+    text-align: center; 
+    font-size: 25px;
+}
+
+.diadelas{
+    color: rgb(30, 160, 160);
+    text-align: center;
+}
+
+
+
+.lmsg{
+    background-color: #FE8081;
+}
+.fol{
+ background-color: #FFD231;
+}
+.ing{
+    background-color:#EEF1C4;
+}
+.ende{
+    background-color: #8080C0;
+}
+.prog{
+   background-color:  #96DC96;
+}
+.bdd{
+    background-color: #81FF81;
+}
+.sisi{
+    background-color: #C9A0C8;
+}
+#thorario table {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
