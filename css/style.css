@@ -4,9 +4,28 @@ body {
 #container {
     width: 80%;
     margin: 0 auto;
-    box-shadow: 0 0 20px gainsboro;
+    box-shadow: 0 0 20px rgb(220, 220, 220);
+    background-color: rgb(240, 152, 240);
+}
+#tdefault th, #tcombi th {
+    background-color: rgb(7, 7, 70);
+    color: cornflowerblue;
+}
+#tdefault td, #tcombi td {
+    background-color: cornflowerblue;
+    color: rgb(7, 7, 70);
+}
+#tcebra tr:nth-child(odd) td{
+    background-color: rgb(243, 204, 204) ;
 }
 
+#tcebra tr:nth-child(even) td{
+    background-color: rgb(205, 205, 241);
+}
+
+#parrafo{
+    float: left;
+}
 header img {
     width: 100%;
     height: 150px;
@@ -19,10 +38,11 @@ nav {
     width: 78%;
     float: right;
     padding-bottom: 30px;
+   
 }
 footer {
-    background-color: rgb(18, 4, 102);
-    color: rgb(187, 230, 247);
+    background-color: rgb(162, 76, 74);
+    color: rgb(106, 213, 216);
     font-size: 30px;
     text-align: center;
     padding: 10px;
@@ -45,14 +65,14 @@ nav li {
     margin-bottom: 4px;
 }
 nav ul li:hover {
-    color: rgb(195, 216, 248);
-    background-color: rgb(2, 2, 85);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 a {
     text-decoration: none;
 }
-.text-azulo {
-    color: rgb(2, 2, 85);
+.texto-blanco {
+    color: rgb(243, 243, 247);
     text-align: center;
 }
 #home {
@@ -60,30 +80,24 @@ a {
     
 }
 
-.icono{
-
-    
-
-}
-
 .titulo {
    
     color: red; 
     font-size: 25px;
-    text-align: center;
+    
 }
 .titulo2 {
     color: rgb(30, 160, 160);
     text-align: center; 
     font-size: 25px;
+    background-color: #fff;
 }
 
 .diadelas{
     color: rgb(30, 160, 160);
     text-align: center;
+    background-color: #fff;
 }
-
-
 
 .lmsg{
     background-color: #FE8081;
@@ -110,4 +124,24 @@ a {
     width: 80%;
     margin: 0 auto;
     text-align: center;
+}
+#customo li {
+    list-style-type: decimal;
+}
+#customo li li {
+    list-style-type: lower-alpha;
+}
+#customo li li li{
+    list-style-type: lower-roman;
+}
+
+#customd li {
+    list-style-type: square;
+}
+#customd li li{
+    list-style-image: url(../img/corazon.png);
+}
+#customd li li li {
+    list-style-type: circle;
+    list-style-image: none;
 }
