@@ -10,13 +10,13 @@
 <body>
     <div id="container">
         <header>
-            <img src="img/computer.jpg" alt="computer">
+            <img src="img/banner.jpg" alt="banner">
         </header>
         <div id="principal">
             <nav>
                 <ul>
                     <a href="index.html"><li>Home</li></a>
-                    <a href="parrafos.html"><li>Párrafos</li></a>
+                    <a href="parrafos.html"><li>Historia</li></a>
                     <a href="enlaces.html"><li>Enlaces</li></a>
                     <a href="tablas.html"><li>Tablas</li></a>
                     <a href="listas.html"><li>Listas</li></a>
@@ -26,29 +26,66 @@
                 </ul>
             </nav>
             <div id="contenido">
-                <div id="formu">
-                <form action="ejemplo.php" method="get">
-                    <P>Nombre: <br>
-                    <input type="text" name="nombre" size="40"></P>
-                    <p>Apellidos <br>
-                    <input type="text" name="apellidos" size="40" placeholder="Escriba dos de sus apellidos"></p>
-                    <p>Año en el que nacio <br>
-                        <input type="number" name="nacido" min="1900"></p>
-                    <p>Sexo <br>
-                    <input type="radio"  name="hm" value="h"> Hombre</p>
-                    <input type="radio"  name="hm" value="m"> Mujer</p>
-                    <p>
-                        <input type="submit" value="Enviar">    
-                        <input type="reset" value="Borrar">
-                    </p>
-                </form>
+                <div id="formularios">
+                    <h1 class="titulo">Formularios</h1>
+                    <p>La etiqueta principal para hacer formularios es <span class="etiqueta">form</span> </p>
+                    <h2>Formulario básico</h2>
+                    <form action="" method="get" id="formbasico">
+                        <fieldset>
+                            <legend>Login</legend>
+                        <p><input type="text" name="usuario" placeholder="User"></p>
+                        <p><input type="password" name="clave" placeholder="Password"></p>
+                        <p><textarea name="comentarios" cols="30" rows="10" placeholder="Coment"></textarea></p>
+                        <input type="hidden" name="secreto" value="34kkd">
+                        <p><input type="submit" value="Enviar"></p>
+                        </fieldset>
+                    </form>
+                    <h2>Formulario variado</h2>
+                    <form action="" method="get" id="formvariado">
+                        <fieldset>
+                        <p>Lista
+                            <select name="provincia">
+                                <option value="1">Toledo</option>
+                                <option value="2">Cuenca</option>
+                                <option value="3">C. Real</option>
+                                <option value="4">Guadalajara</option>
+                                <option value="5">Albacete</option>
+                            </select>
+                        </p>
+                        <p>Lista Multiple
+                            <select name="colores" multiple="" size="5">
+                                <option value="1">Azul</option>
+                                <option value="2">Verde</option>
+                                <option value="3">Amarillo</option>
+                                <option value="4">Rojo</option>
+                                <option value="5">Naranja</option>
+                            </select>
+                        </p>
+                        <p></p><fieldset>
+                            <legend>Aficiones</legend>
+                            <input type="checkbox" name="cine">Cine <br>
+                            <input type="checkbox" name="deporte">Deporte <br>
+                            <input type="checkbox" name="juerga">Juerga <br>
+                            <input type="checkbox" name="viajar">Viajar <br>
+                        </fieldset>
+                        <p></p>
+                        <p></p><fieldset>
+                            <legend>Sexo</legend>
+                            <input type="radio" name="sexo" value="hombre">hombre <br>
+                            <input type="radio" name="sexo" value="mujer">mujer <br>
+                            <input type="radio" name="sexo" value="otros">otros <br>
+                            </fieldset>
+                        <p></p>
+                        <p><input type="submit" value="Aceptar"><input type="reset" value="Clear"></p>
+                    </fieldset>
+                    </form>
                 </div>
             </div>
             <div class="cb"></div>
 
         </div>
         <footer>
-            S1DAW - &copy; 2021 Azarquiel
+            Diseñado por Alejandro Serrano Orgaz &copy; 
         </footer>
     </div>
 
